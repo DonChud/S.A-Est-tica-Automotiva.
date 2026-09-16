@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estética automotiva profissional. Lavagem, higienização, polimento, vitrificação e detalhamento. Agende seu atendimento pelo WhatsApp.">
+  <meta property="og:title" content="S.A Estética Automotiva | Estética Automotiva Profissional">
+  <meta property="og:description" content="Cuidado preciso, acabamento impecável e atendimento direto pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#07111f">
+  <title>S.A Estética Automotiva | Estética Automotiva Profissional</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="S.A Estética Automotiva - início">
+        <span class="brand-mark" aria-hidden="true">S.A</span>
+        <span class="brand-name">Estética Automotiva</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#agendamento">Agendamento</a>
+        <a class="nav-cta" href="#agendamento">Agendar <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Carro premium com pintura brilhante após detalhamento"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Precisão em cada detalhe <span></span></p>
+        <h1 id="hero-title">Seu carro no padrão que ele merece.</h1>
+        <p class="hero-copy">Estética automotiva profissional, cuidado nos detalhes e acabamento impecável.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#agendamento">Agendar agora <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="#servicos">Ver serviços <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta" aria-label="Características do atendimento">
+          <span><strong>01</strong> Cuidado técnico</span>
+          <span><strong>02</strong> Resultado visível</span>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#servicos" aria-label="Rolar para serviços"><span></span> Scroll para explorar</a>
+    </section>
+
+    <section class="services section" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark">Nosso repertório <span></span></p>
+            <h2 id="services-title">Cuidado que aparece.<br><em>Qualidade que permanece.</em></h2>
+          </div>
+          <p class="section-intro">Cada serviço é pensado para valorizar o seu veículo, da primeira limpeza ao último reflexo.</p>
+        </div>
+        <div class="service-list">
+          <article class="service-item">
+            <span class="service-number">01</span><span class="service-icon" aria-hidden="true">◌</span>
+            <div><h3>Lavagem</h3><p>Limpeza externa e interna com cuidado em cada detalhe.</p></div><span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-item">
+            <span class="service-number">02</span><span class="service-icon" aria-hidden="true">✦</span>
+            <div><h3>Higienização</h3><p>Limpeza profunda e renovação do interior do veículo.</p></div><span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-item">
+            <span class="service-number">03</span><span class="service-icon" aria-hidden="true">◈</span>
+            <div><h3>Polimento</h3><p>Correção e recuperação do brilho original da pintura.</p></div><span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-item">
+            <span class="service-number">04</span><span class="service-icon" aria-hidden="true">◇</span>
+            <div><h3>Vitrificação</h3><p>Proteção e acabamento premium para a pintura.</p></div><span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-item">
+            <span class="service-number">05</span><span class="service-icon" aria-hidden="true">◎</span>
+            <div><h3>Detalhamento</h3><p>Cuidado completo para quem busca o máximo acabamento.</p></div><span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking section" id="agendamento" aria-labelledby="booking-title">
+      <div class="container booking-layout">
+        <div class="booking-intro">
+          <p class="eyebrow">Seu próximo cuidado <span></span></p>
+          <h2 id="booking-title">Agende seu atendimento.</h2>
+          <p>Escolha o serviço e envie seu pedido pelo WhatsApp. Retornaremos para confirmar o melhor horário.</p>
+          <div class="booking-note"><span aria-hidden="true">01</span><p>Pré-agendamento simples<br><strong>sem compromisso.</strong></p></div>
+        </div>
+        <form class="booking-form" id="booking-form" novalidate>
+          <div class="form-row">
+            <div class="field"><label for="name">Nome <span>*</span></label><input id="name" name="name" type="text" autocomplete="name" placeholder="Seu nome" required><small class="field-error" id="name-error"></small></div>
+            <div class="field"><label for="phone">WhatsApp <span>*</span></label><input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="(00) 00000-0000" maxlength="15" required><small class="field-error" id="phone-error"></small></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="vehicle">Veículo <span>*</span></label><select id="vehicle" name="vehicle" required><option value="">Selecione o veículo</option><option>Carro</option><option>SUV</option><option>Pickup</option><option>Moto</option></select><small class="field-error" id="vehicle-error"></small></div>
+            <div class="field"><label for="service">Serviço <span>*</span></label><select id="service" name="service" required><option value="">Selecione o serviço</option><option>Lavagem</option><option>Higienização</option><option>Polimento</option><option>Vitrificação</option><option>Detalhamento</option><option>Outro</option></select><small class="field-error" id="service-error"></small></div>
+          </div>
+          <div class="field"><label for="date">Data desejada <span>*</span></label><input id="date" name="date" type="date" required><small class="field-error" id="date-error"></small></div>
+          <div class="field"><label for="note">Observação <span class="optional">Opcional</span></label><textarea id="note" name="note" rows="3" placeholder="Alguma observação?"></textarea></div>
+          <button class="button button-primary submit-button" type="submit">Enviar pelo WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="differentials section" aria-labelledby="differentials-title">
+      <div class="container">
+        <div class="section-heading compact"><div><p class="eyebrow eyebrow-dark">Por que a S.A <span></span></p><h2 id="differentials-title">O padrão está<br><em>nos detalhes.</em></h2></div></div>
+        <div class="differential-grid">
+          <article><span class="differential-icon" aria-hidden="true">✦</span><h3>Atendimento personalizado</h3><p>Cada veículo recebe atenção de acordo com sua necessidade.</p></article>
+          <article><span class="differential-icon" aria-hidden="true">↗</span><h3>Acabamento profissional</h3><p>Processos pensados para entregar qualidade em cada detalhe.</p></article>
+          <article><span class="differential-icon" aria-hidden="true">◈</span><h3>Produtos profissionais</h3><p>Produtos adequados para cada etapa do cuidado.</p></article>
+          <article><span class="differential-icon" aria-hidden="true">⌁</span><h3>Agendamento fácil</h3><p>Solicite seu atendimento diretamente pelo WhatsApp.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta" aria-labelledby="cta-title">
+      <div class="container final-cta-inner"><p class="eyebrow">Pronto para o próximo nível <span></span></p><h2 id="cta-title">Pronto para deixar seu carro<br><em>em outro nível?</em></h2><a class="button button-light" href="#agendamento">Agendar agora <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">S.A</span><span class="brand-name">Estética Automotiva</span></a><p>Precisão, cuidado e acabamento.</p><span class="footer-copy">© 2026 S.A Estética Automotiva</span></div></footer>
+  <a class="whatsapp-float" href="#agendamento" aria-label="Agende pelo WhatsApp" title="Agende pelo WhatsApp"><span aria-hidden="true">✆</span></a>
+</body>
+</html>
