@@ -1,5 +1,5 @@
 const CONFIG = {
-  whatsapp: "554188332794",
+  whatsapp: "5541988332794",
   empresa: "S.A Estética Automotiva"
 };
 
